@@ -1,0 +1,44 @@
+main{
+    background-image: url(photos/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    background-position: fixed;
+    padding: 40px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:rgb(45, 43, 43,0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: white;
+}
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+.container li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+.container li:last-child {
+    border-bottom: none;
+}
+.container strong {
+    display: inline-block;
+    width: 180px;
+}

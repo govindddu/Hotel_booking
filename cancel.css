@@ -1,0 +1,56 @@
+main{
+    background-image: url(photos/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    background-position: fixed;
+    padding: 30px;
+}
+
+.servis-container {
+     border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color:rgb(23, 24, 24,0.9)
+   
+  }
+  .servis-card {
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: left;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+.servis-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+
+}
+
+.servis-card p {
+    margin: 5px 0;
+  
+}
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-btn:hover {
+    background-color: #ff4949;
+}
+

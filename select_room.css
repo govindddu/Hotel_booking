@@ -1,0 +1,45 @@
+main{
+    background-image: url(photos/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    background-position: fixed;
+}
+
+.servis-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #312e2e;
+    opacity : 0.9;
+  }
+  .servis-card:hover {
+    box-shadow: 7px 8px 16px #ffce14;
+    transform: scale(1.05);
+  }
+  .servis-card {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+.servis-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.servis-card p {
+    margin: 5px 0;
+    color: #666;
+}
+

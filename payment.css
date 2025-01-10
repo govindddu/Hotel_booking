@@ -1,0 +1,67 @@
+main{
+    background-image : url(photos/2.jpg);
+    padding: 100px;
+   }
+        .invoice-container {
+            background-color: rgb(54, 35, 35,0.7);
+           
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            color : white ;
+           margin-left : 390px;
+        }
+        .invoice-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .customer-details {
+            margin-bottom: 20px;
+        }
+        .customer-details div {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .invoice-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .invoice-table th, .invoice-table td {
+            padding: 12px 15px;
+            border: 1px solid #dee2e6;
+            text-align: left;
+        }
+        .invoice-table th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .invoice-table tr:nth-child(even) {
+            background-color: #2c2929;
+        }
+        .invoice-total {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #007bff;
+            text-align: right;
+            margin-top: 20px;
+        }
+        .payment-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .payment-button button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .payment-button button:hover {
+            background-color: #0056b3;
+        }

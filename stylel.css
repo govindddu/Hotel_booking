@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  
+    overflow-x: hidden;
+  }
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+.name{
+    font-size: 2em;
+    font-family: "Cinzel";
+}
+.logo {
+    width: 100px;
+    font-family: "Cinzel";
+  }
+
+nav {
+    font-family: "Cinzel";
+    background-color:#000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 10px;
+    align-content: center;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+  }
+  
+  nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.5s;
+  }
+  .active {
+    color: #ff4757;
+    font-weight: bold;
+}
+
+.active::after {
+    width: 100%;
+}
+
+  
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  
+  footer {
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .footerBottom p {
+    color: white;
+    font-size: 1.3rem;
+  }
+
+
+.nav-left {
+    flex: 1;
+    display: flex;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.main{
+    display: flex;
+}
+
+.main{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    color: #000000;
+}
